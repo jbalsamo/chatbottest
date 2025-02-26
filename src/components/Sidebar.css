@@ -1,0 +1,32 @@
+.sidebar {
+  width: 10vw;
+  height: calc(100vh - 64px); /* Subtract header height */
+  background-color: var(--bg-secondary);
+  border-right: 1px solid var(--border-color);
+  transition: background-color 0.3s, border-color 0.3s;
+  padding: 1rem;
+}
+
+.new-chat-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.new-chat-button:hover {
+  background-color: #1976D2;
+}
+
+.new-chat-button:active {
+  background-color: #1565C0;
+}
